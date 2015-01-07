@@ -3,8 +3,8 @@ steal(
 ,	'can/construct/super'
 ,	'can/control/plugin'
 ,	'can/observe'
-,	'can/view/mustache'
 ,	'can/event'
+,	'can/view'
 ,	function()
 	{
 		/**

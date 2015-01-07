@@ -52,7 +52,7 @@
 				}
 			,	bundle:
 				[
-					"lib/typeahead.js"
+					"typeahead.js"
 				]
 			}
 		);

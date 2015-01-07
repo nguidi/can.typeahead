@@ -1,7 +1,8 @@
 steal(
 	'can/model'
 ,	'can/util/fixture'
-,	'lib/typeahead'
+,	'can/view/mustache'
+,	'typeahead.min.js'
 ,	function()
 	{
 		var	paisesArray
@@ -48,9 +49,8 @@ steal(
 			}
 		)
 
-		can.Model(
-			'Paises'
-		,	{
+		Paises = can.Model.extend(
+			{
 				filter: function(query)
 				{
 					return	can.ajax(

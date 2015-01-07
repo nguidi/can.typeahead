@@ -1,6 +1,6 @@
 {
   "name": "can.typeahead",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": {
     "type": "git",
     "url": "git@github.com:nguidi/can.typeahead.git",
@@ -14,7 +14,7 @@
   ],
   "dependencies": {
     "canjs": "git://github.com/bitovi/canjs#minor",
-    "steal": "0.3.0",
+    "steal": "~0.4.0",
     "jquery": "1.11.2"
   }
 , "devDependencies":
