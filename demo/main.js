@@ -2,7 +2,7 @@ steal(
 	'can/model'
 ,	'can/util/fixture'
 ,	'can/view/mustache'
-,	'typeahead.min.js'
+,	'typeahead.js'
 ,	function()
 	{
 		var	paisesArray
