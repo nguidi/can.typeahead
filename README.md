@@ -1,16 +1,19 @@
 can.Typeahead
 =============
 
-Typeahead plugin creado usando canjs y bootstrap
+CanJS Typeahead Plugin
 
-# Dependencias
+# Dependencies
 
 * [jQuery](http://jquery.com)
 * [CanJS](http://canjs.com)
 * [StealJS](http://stealjs.com)
+
+# Development Dependencies
+
 * [Bootstrap](http://getbootstrap.com)
 * [FuncUnit](http://funcunit.com)
 
-# Documentación
+# Documentation
 
 * [DocumentJS](http://documentjs.com)

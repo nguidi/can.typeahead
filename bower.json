@@ -13,9 +13,12 @@
     }
   ],
   "dependencies": {
-    "canjs": "2.1.0",
-    "steal": "~0.4.0",
-    "jquery": "1.9.1",
+    "canjs": "git://github.com/bitovi/canjs#minor",
+    "steal": "0.3.0",
+    "jquery": "1.11.2"
+  }
+, "devDependencies":
+  {
     "bootstrap": "~3.3.1",
     "funcunit": "~2.0.4"
   }
