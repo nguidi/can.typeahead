@@ -33,8 +33,6 @@
 			,	paths:
 				{
 					'jquery':			'bower_components/jquery/dist/jquery.js'
-				,	'bootstrap':		'bower_components/bootstrap/dist/js/bootstrap.js'
-				,	'bootstrap.css':	'bower_components/bootstrap/dist/css/bootstrap.css!css'
 				}
 			,	meta:
 				{
@@ -50,10 +48,6 @@
 				,	'mustache':	'can/view/mustache/system'
 				,	'stache':	'can/view/stache/system'
 				}
-			,	bundle:
-				[
-					"typeahead.js"
-				]
 			}
 		);
 	}
