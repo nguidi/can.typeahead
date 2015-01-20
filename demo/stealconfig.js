@@ -33,6 +33,7 @@
 			,	paths:
 				{
 					'jquery':			'bower_components/jquery/dist/jquery.js'
+				,	'typeahead':		'../typeahead.js'
 				}
 			,	meta:
 				{

@@ -5,7 +5,7 @@ var	pluginifier
 
 pluginifier(
 	{
-		config:	__dirname+'/stealconfig.js'
+		config:	__dirname+'/demo/stealconfig.js'
 	,	main:	'typeahead'
 	}
 ).then(
