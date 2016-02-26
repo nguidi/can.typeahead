@@ -46,21 +46,27 @@ steal(
 				 */
 				init: function(element, options)
 				{	
-					this.suggestions
-					=	new can.Map({items: []})
+					// this.suggestions
+					// =	new can.Map({items: []})
 					
-					this.$menu
-					=	can.$('<div>')
-							.css('position','relative')
-							.appendTo(
-								this.element.parent()
-							)
+					// this.$menu
+					// =	can.$('<div>')
+					// 		.css('position','relative')
+					// 		.appendTo(
+					// 			this.element.parent()
+					// 		)
 
 					can.append(
 						this.$menu
+						=	can.$('<div>')
+								.css('position','relative')
+								.appendTo(
+									this.element.parent()
+								)
 					,	can.view(
 							this.options.view
 						,	this.suggestions
+							=	new can.Map({items: []})
 						)
 					)
 				
